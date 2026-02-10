@@ -2,12 +2,14 @@
 
 import sys
 
+nums = []
 if len(sys.argv) == 3:
     try:
         start = int(sys.argv[1])
         end = int(sys.argv[2])
         for i in range(start, end + 1):
-            print(i)
+            nums.append(i)
+        print(nums)
     except ValueError:
         print("none")
 else:
