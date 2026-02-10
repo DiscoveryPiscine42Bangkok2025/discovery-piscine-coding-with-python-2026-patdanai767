@@ -5,7 +5,7 @@ try:
     sec_num = int(input("Enter the second number:\n"))
 
     result = fir_num * sec_num
-    print(fir_num, " x " , sec_num, " = ", result)
+    print(fir_num, "x" , sec_num, "=", result)
 
     if result < 0:
         print("The result is negative.")
